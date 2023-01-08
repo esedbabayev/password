@@ -1,0 +1,25 @@
+.container{
+    width: 60%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+input{
+position: relative;
+   width: 20%;
+   height: 4vh;                   
+}
+.icon{
+    position: absolute;
+    padding-left: 10%;
+    display: flex;
+    z-index: 99;
+}
